@@ -50,52 +50,6 @@ const useAppleHealthKit = (
     Workout
    */
 
-  // const setupEventListeners = () => {
-  //   const emitter = new NativeEventEmitter(NativeModules.AppleHealthKit);
-
-  //   emitter.addListener('healthKit:HeartRate:setup:success', () => {
-  //     console.log('--> Heart Rate observer success');
-  //     // getHeartRate();
-  //   });
-  //   emitter.addListener('healthKit:HeartRate:setup:failure', () => {
-  //     console.log('--> Heart Rate observer failure');
-  //     // getHeartRate();
-  //   });
-
-  //   emitter.addListener('healthKit:HeartRate:new', () => {
-  //     console.log('--> Heart Rate observer triggered');
-  //     // getHeartRate();
-  //   });
-
-  //   emitter.addListener('healthKit:HeartRate:failure', () => {
-  //     console.log('--> Heart Rate observer failure');
-  //     // getHeartRate();
-  //   });
-
-  //   emitter.addListener('healthKit:ActiveEnergyBurned:setup:success', () => {
-  //     console.log('--> ActiveEnergyBurned observer success');
-  //     // getCalories();
-  //   });
-
-  //   emitter.addListener('healthKit:ActiveEnergyBurned:new', () => {
-  //     console.log('--> Active Energy observer triggered');
-  //     // getCalories();
-  //   });
-
-  //   emitter.addListener('healthKit:ActiveEnergyBurned:setup:failure', () => {
-  //     console.log('--> ActiveEnergyBurned observer enabled');
-  //     // getHeartRate();
-  //   });
-  //   emitter.addListener('healthKit:ActiveEnergyBurned:failure', () => {
-  //     console.log('--> ActiveEnergyBurned observer enabled');
-  //     // getHeartRate();
-  //   });
-
-  //   return () => {
-  //     emitter.removeAllListeners(NativeModules.AppleHealthKit); // Cleanup when the component unmounts
-  //   };
-  // };
-
   /* Can now read or write to HealthKit */
 
   // Get the current date
